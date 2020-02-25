@@ -41,7 +41,7 @@ address {
 img {
   display: block;
   border: 0;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -53,4 +53,17 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.baby-pic{
+  width: 20%;
+}
+.mark-pic{
+  width: 50%;
+}
+.loc-pic{
+  width: 50%;
+}
+.baby-fire {
+  width: 15% !important;
 }

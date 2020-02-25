@@ -5,6 +5,9 @@ small {
   header {
     background-color: darkblue;
     border: cornflowerblue solid 3px;
+    /* position: fixed; */
+    width: 100%;
+    /* box-shadow: 0px 8px black; */
   }
   
   .site-title {
