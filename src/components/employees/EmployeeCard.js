@@ -1,13 +1,19 @@
 import React from "react";
 
-const EmployeeCard = () => {
+const EmployeeCard = props => {
   return (
       <div className="card">
           <div className="card-content">
                 <picture>
-                    <img src={require ("./baby.jpeg")} alt="Employee" />
+                    <img src={`${props.employee.img}`} className="baby-pic" alt="Employee" />
                 </picture>
-                <h3>Employee: <span className="employee-name">Scrubs McKenzie</span></h3>
+                <h3>Employee: <span className="employee-name">{props.employee.name}</span></h3>
+                <button
+          type="button" className="baby-fire"
+          onClick={() => props.deleteEmployee(props.employee.id)}
+        >
+          Fire
+        </button>
           </div>
       </div>
   )
