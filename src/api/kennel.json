@@ -14,12 +14,30 @@
     },
     {
       "id": 3,
-      "name": "Esme",
-      "breed": "Pitbull",
-      "img": "https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/12/puppy-scams-los-angeles-christmas-duffy-brook-6qxIWz3brAk-unsplash-1068x752.jpg"
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
     },
     {
       "id": 4,
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
+    },
+    {
+      "id": 7,
       "name": "Esme",
       "breed": "Pitbull",
       "img": "https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/12/puppy-scams-los-angeles-christmas-duffy-brook-6qxIWz3brAk-unsplash-1068x752.jpg"
@@ -78,6 +96,11 @@
     },
     {
       "id": 3,
+      "address": "676 not real pike",
+      "number": "333-3333"
+    },
+    {
+      "id": 4,
       "address": "676 not real pike",
       "number": "333-3333"
     }

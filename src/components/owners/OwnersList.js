@@ -18,7 +18,7 @@ const OwnersList = () => {
     }, [])
 
     return(
-        <div className="card-container">
+        <div className="container-cards">
             {owners.map(owner=> <OwnerCard key={owner.id} owner={owner} deleteOwner={deleteOwner}/>
 
             )}

@@ -18,7 +18,7 @@ const LocationList = () => {
     }, [])
 
     return(
-        <div className = "card-container">
+        <div className = "container-cards">
             {locations.map(location=> 
                 <LocationCard key={location.id} location={location}  deleteLocations={deleteLocations}/>
             )}

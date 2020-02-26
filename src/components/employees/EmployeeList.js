@@ -19,7 +19,7 @@ const EmployeeList  = () => {
     }, [])
 
     return(
-        <div className="card-container"> 
+        <div className="container-cards"> 
         {employees.map(employee=> 
             <EmployeeCard key={employee.id} employee={employee} deleteEmployee={deleteEmployee}/>
         )}
