@@ -14,15 +14,51 @@
     },
     {
       "id": 3,
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Decker",
+      "breed": "German Shepherd",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
+    },
+    {
+      "id": 7,
       "name": "Esme",
       "breed": "Pitbull",
       "img": "https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/12/puppy-scams-los-angeles-christmas-duffy-brook-6qxIWz3brAk-unsplash-1068x752.jpg"
     },
     {
-      "id": 4,
-      "name": "Esme",
-      "breed": "Pitbull",
-      "img": "https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/12/puppy-scams-los-angeles-christmas-duffy-brook-6qxIWz3brAk-unsplash-1068x752.jpg"
+      "name": "wishbone",
+      "breed": "golden retreiever",
+      "img": "https://cdn1-www.dogtime.com/assets/uploads/2011/03/puppy-development.jpg",
+      "id": 8
+    },
+    {
+      "name": "Derrick",
+      "breed": "Dog",
+      "img": "https://image.shutterstock.com/image-photo/labrador-retriever-puppy-yard-shallow-260nw-100765450.jpg",
+      "id": 9
+    },
+    {
+      "name": "Googs",
+      "breed": "Greyhound",
+      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg",
+      "id": 10
     }
   ],
   "owners": [
@@ -46,6 +82,13 @@
       "title": "CBO",
       "img": "https://image.cnbcfm.com/api/v1/image/103912396-GettyImages-539048394.jpg?v=1582226502&w=1400&h=950",
       "number": "234-5678"
+    },
+    {
+      "name": "Kurt Wolfgang Krafft",
+      "title": "BOSS",
+      "img": "https://miro.medium.com/max/5200/0*sMYHgC_sU0PGqEu1.jpg",
+      "number": "867-5309",
+      "id": 4
     }
   ],
   "employees": [
@@ -63,6 +106,11 @@
       "id": 3,
       "name": "Lil Giggle",
       "img": "https://www.askideas.com/wp-content/uploads/2016/11/Funny-Baby-With-Mohawk-Hairstyle.jpg"
+    },
+    {
+      "name": "Cooper ",
+      "img": "https://i2.wp.com/laughnationhumor.com/wp-content/uploads/2019/07/funny-baby-with-big-eyes-635754740987908012-14425.jpg?resize=398%2C350&ssl=1",
+      "id": 4
     }
   ],
   "locations": [
@@ -78,6 +126,11 @@
     },
     {
       "id": 3,
+      "address": "676 not real pike",
+      "number": "333-3333"
+    },
+    {
+      "id": 4,
       "address": "676 not real pike",
       "number": "333-3333"
     }

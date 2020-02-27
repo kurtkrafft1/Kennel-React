@@ -13,7 +13,6 @@ const Kennel = () => {
       <NavBar />
       <Sidebar />
       <ApplicationViews />
-      <Button />
     </>
   );
 };
