@@ -80,3 +80,6 @@ img {
   display: flex;
   justify-content: center;
 }
+.dog-img {
+  border-radius: 200px;
+}

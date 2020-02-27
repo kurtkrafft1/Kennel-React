@@ -7,7 +7,7 @@ const AnimalCard = props => {
     <div className="card">
       <div className="card-content">
         <picture>
-          <img src={`${props.animal.img}`} alt="My Dog" />
+          <img src={`${props.animal.img}`} className = "dog-img" alt="My Dog" />
         </picture>
         <h3>
           Name: <span className="card-petname">{props.animal.name}</span>

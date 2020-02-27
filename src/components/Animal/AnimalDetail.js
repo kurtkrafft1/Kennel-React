@@ -17,7 +17,7 @@ const AnimalDetail = props => {
   useEffect(() => {
     //get(id) from AnimalManager and hang on to the data; put it into state
     AnimalManager.get(props.animalId).then(animal => {
-      setAnimal({
+     setAnimal({
         name: animal.name,
         breed: animal.breed,
         img: animal.img
@@ -25,7 +25,20 @@ const AnimalDetail = props => {
       setIsLoading(false);
     });
   }, [props.animalId]);
+  if(animal.name===undefined){
+    return (
+      <div className='card'>
+        <div className = "card-content">
+          <h1>Sorry page not found</h1>
+          <picture>
+            <img src="https://media.giphy.com/media/3ohzdYJK1wAdPWVk88/giphy.gif"/>
 
+          </picture>
+        </div>
+      </div>
+    )
+  }
+else{
   return (
     <div className="card">
       <div className="card-content">
@@ -42,6 +55,7 @@ const AnimalDetail = props => {
       </div>
     </div>
   );
+}
 };
 
 export default AnimalDetail;

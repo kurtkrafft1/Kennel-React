@@ -22,7 +22,7 @@ const ApplicationViews = () => {
     <React.Fragment>
       <Route
         exact
-        path="/"
+        path="/ "
         render={props => {
           return <Home />;
         }}

@@ -20,8 +20,8 @@ const Login = props => {
     sessionStorage.setItem(
       "credentials",
       JSON.stringify(credentials)
-    );
-    props.history.push("/");
+    );XQ
+    props.history.push("/ ");
   }
 
   return (
