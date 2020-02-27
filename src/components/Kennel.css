@@ -76,3 +76,7 @@ img {
 .baby-fire {
   width: 15% !important;
 }
+.section-content {
+  display: flex;
+  justify-content: center;
+}

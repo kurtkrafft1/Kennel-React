@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import LocationCard from './LocationCard';
 import LocationsManager from '../../modules/LocationsManager';
 
-const LocationList = () => {
+const LocationList = (props) => {
     const [locations, setLocations] = useState([]);
     const getLocations=() => {
         return LocationsManager.getAll().then(locationsFromAPI=> {
@@ -18,11 +18,20 @@ const LocationList = () => {
     }, [])
 
     return(
+        <>
+        <section className="section-content">
+  <button type="button"
+      className="btn ui yellow button"
+      onClick={() => {props.history.push("/locations/new")}}>
+      New Branch
+  </button>
+  </section>
         <div className = "container-cards">
             {locations.map(location=> 
                 <LocationCard key={location.id} location={location}  deleteLocations={deleteLocations}/>
             )}
         </div>
+        </>
     )
 }
 export default LocationList;
