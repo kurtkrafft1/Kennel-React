@@ -80,3 +80,12 @@ img {
   display: flex;
   justify-content: center;
 }
+.dog-img {
+  border-radius: 200px;
+}
+.edit-photo {
+  width: 100px;
+  margin-left: 10%;
+  border: dotted 2px grey;
+  margin-top: 4%  ;
+}

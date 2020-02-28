@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -13,30 +13,45 @@ const NavBar = () => {
       <nav>
         <ul className="container">
           <li>
-            <Link className="nav-link" to="/">
+            <NavLink  activeClassName="selected" className="nav-link"activeStyle={{
+    fontWeight: "bold",
+    color: "midnightblue"
+  }} to="/ ">
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className="nav-link" to="/animals">
+            <NavLink  activeClassName="selected" className="nav-link"activeStyle={{
+    fontWeight: "bold",
+    color: "midnightblue"
+  }} to="/animals">
               Animals
-            </Link>
+            </NavLink>
           </li>
           <li>
-          <Link className="nav-link" to="/locations">
+          <NavLink  activeClassName="selected" className="nav-link" activeStyle={{
+    fontWeight: "bold",
+    color: "midnightblue"
+  }} to="/locations">
            Locations
-          </Link>
+          </NavLink>
           </li>
           <li>
-          <Link className="nav-link" to="/owners">
+          <NavLink  activeClassName="selected" className="nav-link" activeStyle={{
+    fontWeight: "bold",
+    color: "midnightblue"
+  }} to="/owners">
             Owners
-          </Link>
+          </NavLink>
           </li>
 
           <li>
-              <Link className = "nav-link" to="/employees">
+              <NavLink  activeClassName="selected" className = "nav-link" activeStyle={{
+    fontWeight: "bold",
+    color: "midnightblue"
+  }} to="/employees">
               Employees
-              </Link>
+              </NavLink>
               </li>
         </ul>
       </nav>
@@ -44,4 +59,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default withRouter(NavBar);

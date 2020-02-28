@@ -25,18 +25,6 @@
       "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
     },
     {
-      "id": 5,
-      "name": "Decker",
-      "breed": "German Shepherd",
-      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Decker",
-      "breed": "German Shepherd",
-      "img": "https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"
-    },
-    {
       "id": 7,
       "name": "Esme",
       "breed": "Pitbull",
@@ -49,10 +37,10 @@
       "id": 8
     },
     {
-      "name": "Derrick",
+      "id": 9,
+      "name": "Derrick Rules",
       "breed": "Dog",
-      "img": "https://image.shutterstock.com/image-photo/labrador-retriever-puppy-yard-shallow-260nw-100765450.jpg",
-      "id": 9
+      "img": "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg"
     },
     {
       "name": "Googs",
@@ -65,8 +53,8 @@
     {
       "id": 1,
       "name": "D-Money",
-      "title": "CEO",
-      "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mark-cuban-at-the-paley-center-for-media-on-october-14-2018-news-photo-1582150328.jpg",
+      "title": "CEO bo",
+      "img": "https://i.insider.com/5280f9f669bedd000b1f9b06?width=1100&format=jpeg&auto=webp",
       "number": "123-4567"
     },
     {
@@ -84,11 +72,11 @@
       "number": "234-5678"
     },
     {
-      "name": "Kurt Wolfgang Krafft",
+      "id": 4,
+      "name": "Kurt Wolfgang Krafft guru",
       "title": "BOSS",
       "img": "https://miro.medium.com/max/5200/0*sMYHgC_sU0PGqEu1.jpg",
-      "number": "867-5309",
-      "id": 4
+      "number": "867-5309"
     }
   ],
   "employees": [
@@ -126,8 +114,7 @@
     },
     {
       "id": 3,
-      "address": "676 not real pike",
-      "number": "333-3333"
+      "address": "676 not real pike got it"
     },
     {
       "id": 4,

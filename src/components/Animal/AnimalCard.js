@@ -7,7 +7,7 @@ const AnimalCard = props => {
     <div className="card">
       <div className="card-content">
         <picture>
-          <img src={`${props.animal.img}`} alt="My Dog" />
+          <img src={`${props.animal.img}`} className="dog-img" alt="My Dog" />
         </picture>
         <h3>
           Name: <span className="card-petname">{props.animal.name}</span>
@@ -16,6 +16,12 @@ const AnimalCard = props => {
         <Link to={`/animals/${props.animal.id}`}>
           <button>Details</button>
         </Link>
+        <button
+          type="button"
+          onClick={() => props.history.push(`/animals/${props.animal.id}/edit`)}
+        >
+          Edit
+        </button>
         <button
           type="button"
           onClick={() => props.deleteAnimal(props.animal.id)}
