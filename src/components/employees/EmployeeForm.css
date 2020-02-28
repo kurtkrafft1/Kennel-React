@@ -56,6 +56,12 @@ fieldset input, fieldset button, fieldset select {
     margin: 0
 }
 
-fieldset .alignRight {
-    text-align: right;
+.alignRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-photo {
+    margin-bottom: 10%;
+    margin-top: 3%;
 }
